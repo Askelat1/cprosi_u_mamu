@@ -7,6 +7,7 @@ import './App.css'
 import MainPage from './pages/MainPage/MainPage.jsx'
 import Recipes from './pages/Recipes/Recipes.jsx'
 import Header from './content/Header/Header.jsx'
+import Register from './content/Regist/SingIn'
 import Footer from './content/Footer/Footer'
 import AboutUs from './pages/aboutUs/AboutUs';
 
@@ -19,6 +20,7 @@ function App() {
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/recipes" element={<Recipes />} />
+          <Route path="/signIn" element={<Register />} />
         </Routes>
         <Footer />
       </div>

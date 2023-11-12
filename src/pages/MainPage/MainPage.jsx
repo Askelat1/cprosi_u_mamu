@@ -56,7 +56,7 @@ function MainPage(props) {
           <Link to={'/recipes'}>О нас</Link>
           {/* <a className={module.nav_item} href='#'>О нас</a> */}
           <div className={module.nav_itemStart}>
-          <Link className={module.itemStart} to={'/recipes'}>Начать</Link>
+          <Link className={module.itemStart} to={'/signIn'}>Начать</Link>
             {/* <div className={module.itemStart}>Начать</div> */}
           </div>
         </nav>
